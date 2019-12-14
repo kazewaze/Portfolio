@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LiteCoat</title>
+    <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+          <header>
+            <nav class="navbar is-fixed-top">
+              <div class="container">
+                <div class="navbar-brand">
+                    <a class="logo" href="/">
+                        <img class="logo-img" src="./nav-logo.png" alt="Logo">
+                    </a>
+                <span class="navbar-burger burger" data-target="navMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="/" style="color: #212B36; font-size: 20px; font-weight: 900;" class="navbar-item">Home</a>
+                  <a href="/about.html" style="color: #212B36; font-size: 20px; font-weight: 900;" class="navbar-item">About</a>
+                  <a href="/contact.html" style="color: #212B36; font-size: 20px; font-weight: 900;" class="navbar-item">Contact</a>
+                  <a href="/books.html" style="color: #212B36; font-size: 20px; font-weight: 900;" class="navbar-item">Books & Articles</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div id="main">
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+              Need an online store?
+        </h1>
+        <p class="subtitle">
+              Don't have much too spend? Welcome to <strong>LiteCoat</strong>!
+        </p>
+      </div>
+    </section>
+</div>
+</div>
+    <div id="footer">
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <h1 style="text-align: center"><a style="color: #8B7B65; font-family: baskerville; font-size: 45px; line-height: 1.7; letter-spacing: 0; text-decoration: underline" href="/contact.html">Ingram</a></h1>
+            <p style="font-size: 12px; margin-bottom: 17px;">
+                <a target="_blank" href="/icons/set/fill-color">Fill Color icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+              </p>
+              <p style="font-size: 20px; margin-bottom: 0;">
+               Copyright © 2019 <span style="font-weight: bold; font-family: 'Lilita One', sans-serif, serif; letter-spacing: -1px;">LiteCoat</span>
+              </p>
+            </div>
+          </footer>
+      </div>
+    <script type="text/javascript">
+        (function() {
+          var burger = document.querySelector('.burger');
+          var nav = document.querySelector('#'+burger.dataset.target);
+          burger.addEventListener('click', function(){
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+          });
+        })();
+    </script>
+  </body>
+</html>
