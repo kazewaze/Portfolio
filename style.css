@@ -80,7 +80,8 @@ border-bottom-color:rgb(223,227,232);
 }
 
 .footer-contents {
+  display: flex;
+  justify-content: center;
   font-size: 12px;
   margin-bottom: 17px;
-  text-align: center;
 }
