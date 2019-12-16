@@ -78,3 +78,9 @@ border-bottom-color:rgb(223,227,232);
 .title {
   text-align: center;
 }
+
+.footer-contents {
+  font-size: 12px;
+  margin-bottom: 17px;
+  text-align: center;
+}
