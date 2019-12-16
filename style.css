@@ -85,3 +85,8 @@ border-bottom-color:rgb(223,227,232);
   font-size: 12px;
   margin-bottom: 17px;
 }
+
+.footer-contents .navbar-item:hover {
+  color: #FFF;
+  background-color: #212B36;
+}
