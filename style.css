@@ -70,3 +70,7 @@ border-bottom-color:rgb(223,227,232);
     padding: 45px 35px;
     text-align: center;
   }
+
+  .message {
+    text-align: center;
+  }
