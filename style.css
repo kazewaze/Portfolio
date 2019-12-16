@@ -74,3 +74,7 @@ border-bottom-color:rgb(223,227,232);
   .message {
     text-align: center;
   }
+
+.title {
+  text-align: center;
+}
