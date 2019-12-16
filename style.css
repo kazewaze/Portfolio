@@ -87,6 +87,15 @@ border-bottom-color:rgb(223,227,232);
   background-color: #212B36;
 }
 
+.copyright {
+  font-size: 20px; 
+  margin-bottom: 0;
+}
+
 .credit {
   margin-bottom: 17px;
+}
+
+.credit a {
+  font-size: 12px;
 }
