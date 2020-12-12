@@ -107,7 +107,7 @@
     padding: 77px 55px;
   }
 
-  .section-page-contents {
+  .section-page-contents, .project {
     border-bottom: solid 2px rgb(223,227,232);
   }
 
@@ -178,12 +178,17 @@
     font-size: 24px;
   }
 
-  .project p {
+  .project p, .project a {
     font-size: 20px;
   }
 
+  .project a {
+    text-decoration: underline;
+  }
+
   .project img {
-    /*  */
+    height: 400px;
+    width: 400px;
   }
 
 .navbar {
