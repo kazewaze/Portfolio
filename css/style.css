@@ -33,6 +33,13 @@
     box-sizing: border-box;
   }
 
+  .flx-clm-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .title {
     text-align: center;
   }
@@ -99,6 +106,14 @@
   .section-page {
     padding: 77px 55px;
   }
+
+  .section-page-contents {
+    border-bottom: solid 2px rgb(223,227,232);
+  }
+
+  .section-page a {
+    color: #363636;
+  }
   
   .section-page p {
     font-family: 'Spectral', serif;
@@ -138,6 +153,37 @@
       line-height: 1.3;
       letter-spacing: -.1rem;
     }
+  }
+
+  .skills-container ul, .projects-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill, .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .skill img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .project label {
+    font-size: 24px;
+  }
+
+  .project p {
+    font-size: 20px;
+  }
+
+  .project img {
+    /*  */
   }
 
 .navbar {
