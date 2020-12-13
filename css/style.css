@@ -155,21 +155,21 @@
     }
   }
 
-  .skills-container ul, .projects-container ul {
+  .skills-container ul, .projects-container ul, .contacts-container ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .skill, .project {
+  .skill, .project, .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
   }
 
-  .skill img {
+  .skill img, .contact img {
     height: 100px;
     width: 100px;
   }
@@ -185,27 +185,13 @@
   .project a {
     text-decoration: underline;
   }
-  /* .post {
-    display: grid;
-    grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
-  } */
-  
-  /* position text paragraphs into the second (middle) column */
-  /* p {
-    grid-column: 2;
-  } */
-  
-  /* position images to take up all three columns */
+
   .project img {
     grid-column: 1 / 4;
     width: 100%;
     max-width: 100ch;
     justify-self: center;
   }
-  /* .project img {
-    height: 400px;
-    width: 400px;
-  } */
 
 .navbar {
   background-color: #F4F6F8;
