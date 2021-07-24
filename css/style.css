@@ -189,7 +189,7 @@
   .project img {
     grid-column: 1 / 4;
     width: 100%;
-    max-width: 50ch;
+    max-width: 75ch;
     justify-self: center;
   }
 
