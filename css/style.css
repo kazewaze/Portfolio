@@ -173,6 +173,11 @@ body:before {
   width: 100px;
 }
 
+.skill img.custom-img-size {
+  height: 115px;
+  width: 175px;
+}
+
 .contact img.custom-img-size {
   height: 85px;
   width: 100px;
